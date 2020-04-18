@@ -1,0 +1,109 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgb(37, 37, 37);
+}
+
+.header_principal{
+    background-image: url(../images/Anime.jpg);
+    height: 500px;
+    background-size: cover;
+    background-position: right center;
+    border: 1px solid transparent;
+}
+
+.header_principal nav ul{
+    text-align: left;
+    margin: 50px 50px 0 0;
+}
+
+.header_principal nav li{
+    display: inline-block;
+    list-style: none;
+    border: 1px solid white;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.header_principal nav a{
+    background: rgba(255, 255, 255, 0.5);
+    padding: 10px;
+    display: block;
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+
+.header_principal nav a:hover{
+    background: rgba(255, 255, 255, 0.7);
+}
+
+.texto_header{
+    text-align: center;
+    color: white;
+    margin-top: 150px;
+}
+
+.texto_header h1{
+    text-transform: uppercase;
+    font-size: 50px;
+    color: black;
+    text-shadow: 3px 3px 2px #333;
+}
+
+.texto_header p{
+    background: rgba(0, 0, 0, 0.8);
+    display: inline-block;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    border-bottom: 3px solid white;
+}
+
+main{
+    height: auto;
+    width: 80%;
+    margin: auto;
+}
+
+.session_main{
+    background-color: rgb(27, 27, 27);
+    padding: 15px;
+    margin-top: 15px;
+}
+
+.session_main p{
+    color: white;
+}
+
+.card{
+    background-color: rgba(15, 15, 15, 0.8);
+    width: 24%;
+    height: 200px;
+    display: inline-block;
+}
+
+.card img{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.card p{
+    background-color: rgb(177, 177, 177);
+    color: black;
+    padding: 10px;
+    margin: 0;
+}
+
+.footer_principal{
+    font-family: 'Times New Roman', Times, serif;
+    background: black;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    line-height: 80px;
+    text-shadow: 1px 1px 1px rgb(187, 187, 187);
+}

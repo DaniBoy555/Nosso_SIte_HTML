@@ -71,6 +71,7 @@ main{
 .session_main{
     background-color: rgb(27, 27, 27);
     padding: 15px;
+    padding-bottom: 25px;
     margin-top: 15px;
 }
 
@@ -83,6 +84,10 @@ main{
     width: 24%;
     height: 200px;
     display: inline-block;
+}
+
+.card-1{
+    margin-left: 1.25%;
 }
 
 .card img{
@@ -106,4 +111,5 @@ main{
     font-size: 15px;
     line-height: 80px;
     text-shadow: 1px 1px 1px rgb(187, 187, 187);
+    border-bottom: 1px solid transparent;
 }
